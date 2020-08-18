@@ -1,5 +1,5 @@
 # My Coding Setup
-## Git Pull request Workflow
+## Git Pull Request Workflow
 After cloning the repo, start making changes to source files. Follow the steps listed below:
 * ```git checkout -b <new-branch-name>``` this will create a new branch and switch local branch to new-branch-name. Your changes will be made on this new branch.
 *Make changes to the code, verify that they are working. Now you are ready to check-in.
