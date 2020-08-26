@@ -137,7 +137,7 @@ parse_git_branch() {
 }
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\D{%m.%d.%y}|\A|\[\033[00m\]\[\033[01;31m\]\w\[\033[00m\]\$ '
-export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\D{%m.%d.%y}|\A|\[\033[00m\]\[\033[01;31m\]\w \[\e[33m\]\$(parse_git_branch)\[\e[00m\]$ "
+export PS1="${debian_chroot:+($debian_chroot)}\[\033[01;36m\]\D{%m.%d.%y}|\A|\[\033[00m\]\[\033[01;31m\]\$(parse_git_branch)\[\e[33m\]\w\[\e[00m\]$ "
 
 
 export PYTHONDONTWRITEBYTECODE=1
