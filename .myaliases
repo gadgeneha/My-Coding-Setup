@@ -6,9 +6,13 @@ alias g="gvim"
 alias ga="gvim ~/.myaliases" 
 alias sa="source ~/.myaliases" 
 alias clr="clear"
+
 alias p1="cd ~/project/1/terminus"
 alias p2="cd ~/project/2/terminus"
+alias p3="cd ~/project/3/terminus"
+alias p4="cd ~/project/4/terminus"
 alias mysetup="cd ~/My-Coding-Setup"
+
 alias st="set-title"
 alias gits="git status -uno"
 alias h='history'
@@ -17,6 +21,7 @@ alias pa='cat ~/.myaliases'
 alias moo='apt-get moo'
 alias pyc='sudo find . -name '*.pyc' -delete'
 alias pycache='sudo find . -name '__pycache__' -delete'
+
 alias gc="git clone"
 alias ga="git add"
 alias gbd="git branch -D"
